@@ -1,0 +1,17 @@
+<suite name="Cross Browser Suite">
+    <test name="Chrome Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="CheckoutStagingConfigsTest"/>
+            <class name="CheckoutStagingPaymentsTest"/>
+        </classes>
+    </test>
+
+    <test name="Safari Tests">
+        <parameter name="browser" value="safari"/>
+        <classes>
+            <class name="CheckoutStagingConfigsTest"/>
+            <class name="CheckoutStagingPaymentsTest"/>
+        </classes>
+    </test>
+</suite>
